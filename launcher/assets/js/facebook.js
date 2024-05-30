@@ -1,7 +1,7 @@
 window.fbAsyncInit = function () {
     // Initialize the SDK with your app and the Graph API version for your app 
     FB.init({
-        appId: '357140426152444',
+        appId: '305536225095764',
         xfbml: true,
         version: 'v19.0',
         status: true
@@ -32,7 +32,7 @@ function isFBConnected() {
     })
 }
 
-const NETFLIXY_PAGE_ID = '275781865624176'
+const NETFLIXY_PAGE_ID = '100094766725678'
 
 function isPageLiked() {
     return new Promise((resolve, _reject) => {
